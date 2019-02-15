@@ -1,0 +1,8 @@
+{:deps {clj-http {:mvn/version "3.9.1"}
+        hickory {:mvn/version "0.7.1"}
+        lambdaisland/uri {:mvn/version "1.1.0"}
+        org.clojure/core.async {:mvn/version "0.4.490"}
+        org.clojure/core.match {:mvn/version "0.3.0-alpha5"}
+        org.clojure/core.typed {:mvn/version "0.6.0"}
+        ring/ring-codec {:mvn/version "1.1.1"}}
+ :aliases {:test {:extra-deps {org.clojure/test.check {:mvn/version "0.9.0"}}}}}
